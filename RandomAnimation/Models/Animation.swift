@@ -7,11 +7,11 @@
 
 struct Animation {
     
-    var type: String
-    var curve: String
-    var force: Double
-    var duration: Double
-    var delay: Double
+    let type: String
+    let curve: String
+    let force: Double
+    let duration: Double
+    let delay: Double
     
     static func getAnimation() -> Animation {
         let source = Source()
